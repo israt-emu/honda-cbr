@@ -16,6 +16,9 @@ body{
 h1 {
     font-weight: 600;
 }
+.faq h1 span, .happy-client h1 span, .services h1 span, .browse h1 span{
+    color: var(--primary-color);
+}
 
 /* header area */
 header{
@@ -60,9 +63,7 @@ background: #000;
 }
 
 /* happy client */
-.happy-client h1 span{
-    color: var(--primary-color);
-}
+
 .star-icon i{
     font-size: 18px;
     color: var(--primary-color);
@@ -76,9 +77,45 @@ background: #000;
 }
 
 /* frequently asked questions */
-.faq h1 span{
-    color: var(--primary-color);
-}
+
 .collapse-btn{
     border: 1px solid #ddd;
 }
+
+/* services section */
+.single-service{
+    border-top: 4px solid var(--primary-color);
+    transition: transform 0.3s ease-in-out;
+}
+.single-service:hover{
+    transform: translateY(-7%);
+}
+.single-service:hover .service-icon{
+    background: var(--primary-color);
+}
+.single-service:hover .service-icon i{
+    color:white;
+}
+.service-icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+.service-icon i{
+    line-height: 50px;
+    transform: rotate(-45deg);
+    font-size: 20px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.single-service p{
+    font-size: 14px;
+    width: 85%;
+}
+
+
+/* browse our type */
+
