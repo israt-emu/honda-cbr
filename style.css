@@ -9,3 +9,76 @@ body{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+:root{
+    --primary-color:#c20924;
+}
+h1 {
+    font-weight: 600;
+}
+
+/* header area */
+header{
+background: #000;
+}
+.nav-menu .nav-item .nav-link{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.login-btn{
+    color:white;
+    background-color:var(--primary-color);
+    font-weight: 500;
+}
+
+/* hero section */
+.hero-txt p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/* modal */
+.modal-btn{
+    background: var(--primary-color);
+}
+
+/* feature area */
+
+.feature-txt p{
+    color:var(--primary-color);
+    font-size: 14px;
+}
+.line{
+    background: var(--primary-color);
+    width: 60px;
+    height: 2px;
+}
+.feature-img{
+    filter: grayscale(100%);
+}
+
+/* happy client */
+.happy-client h1 span{
+    color: var(--primary-color);
+}
+.star-icon i{
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.card-body h5{
+    font-size: 14px;
+}
+.card-body h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* frequently asked questions */
+.faq h1 span{
+    color: var(--primary-color);
+}
+.collapse-btn{
+    border: 1px solid #ddd;
+}
