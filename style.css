@@ -30,8 +30,7 @@ background: #000;
     font-weight: 500;
 }
 .login-btn{
-    color:white;
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     font-weight: 500;
 }
 
@@ -119,3 +118,10 @@ background: #000;
 
 /* browse our type */
 
+.item-txt{
+    background: #000;
+    transition: all 0.3s ease-in;
+}
+.item:hover .item-txt{
+    background: var(--primary-color);
+}
